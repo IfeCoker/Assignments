@@ -17,25 +17,23 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
   
   color: hsl(0, 0%, 95%);
   font-family: 'Lexend Deca', sans-serif;
 }
-.first_column{
+.column{
+  flex: 33.33%;
   height: 400px;
+  padding: 32px;
+}
+.first_column{
   background-color: #e38826;
-  padding: 2em;
 }
 .second_column{
-  height: 400px;
   background-color: #006970;
-  padding: 2em;
 }
 .third_column{
-  height: 400px;
   background-color: #004241;
-  padding: 2em;
 }
 h1{
   padding-top: 20px;
